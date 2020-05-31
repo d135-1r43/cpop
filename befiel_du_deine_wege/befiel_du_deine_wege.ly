@@ -25,16 +25,16 @@ choral =
   \repeat volta 2 {
     \partial 4 
     d4 f e f g 
-    a2 a4 c
+    a2 a4 \breathe c
     h a a gis
     a2 r4 
   }
-  a h c d g, 
-  c2 a4 a 
+  a h c d h 
+  c2 a4 \breathe a 
   g f f e 
   f2 r4 a 
   f g a g 
-  f2 e4 f 
+  f2 e4 \breathe f 
   g a f e d2.
   \bar "|."
 }
@@ -69,11 +69,7 @@ harmintro = {
     \chordmode {
     \partial 4 
     r4
-    d2.:m7
-  }
-  \set additionalPitchPrefix = #"add"
-  <c e g d'>4    % add9
-  \chordmode {
+    d2.:m7 c4:9
     f2.:maj7
   }
   <e g h c'>4
@@ -89,13 +85,10 @@ harmintro = {
 
 harmchoral = {
     \chordmode {
+    % Befiel
     \partial 4 
     r4
-    d2.:m7
-  }
-  \set additionalPitchPrefix = #"add"
-  <c e g d'>4    % add9
-  \chordmode {
+    d2.:m7 c4:9
     f2.:maj7
   }
   <e g h c'>4
@@ -103,10 +96,11 @@ harmchoral = {
     g2.:9 e4:7
     a1:m7
 
+    % Der Wolken
     g2.:7 h4:dim
-    a2.:7 f4:maj
+    a2.:m7 f4:maj
     g2.:7 a4
-    d2.:m7
+    d2.:m
   }
   \set additionalPitchPrefix = #"add"
   <c e g f' a'>4
