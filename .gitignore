@@ -1,0 +1,8 @@
+.DS_Store
+*.pdf
+*.tmp
+*.ps
+*.midi
+*.swp
+*.original
+tmp
