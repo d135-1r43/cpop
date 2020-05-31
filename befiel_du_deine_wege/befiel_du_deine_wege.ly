@@ -39,16 +39,56 @@ choral =
   \bar "|."
 }
 
+flute = \relative a {
+  \partial 4 
+  d4 f2. g8 a8(
+  a2.) c8 h8(
+  h2.) a8 e8(
+  e2.)
+
+  d4 f2. h8 a8(
+  a2.) d8 cis8(
+  c2.) e8 a8(a2.)
+}
+
 vocals = \relative a {
   \time 4/4
   \key c \major
   \compressFullBarRests
-
+  <<
+    \new CueVoice {
+      \flute
+    }
+    \\
+    s^\markup { \italic{Flute Intro} }
+  >>
   \choral
 }
 
-harmonies = { 
+harmintro = {
+    \chordmode {
+    \partial 4 
+    r4
+    d2.:m7
+  }
+  \set additionalPitchPrefix = #"add"
+  <c e g d'>4    % add9
   \chordmode {
+    f2.:maj7
+  }
+  <e g h c'>4
+  \chordmode {
+    g2.:9 e4:7
+    a1:m7
+
+    d2.:m h4:dim
+    f2.:maj7 cis4:m
+    a1:7 a2.:11
+  }
+}
+
+harmchoral = {
+    \chordmode {
     \partial 4 
     r4
     d2.:m7
@@ -82,8 +122,13 @@ harmonies = {
   }
 }
 
+harmonies = { 
+  \harmintro
+  \harmchoral
+}
+
 \book {
-  \bookOutputSuffix "voc"
+  \bookOutputSuffix "leadsheet"
   \score {
     <<
       \new ChordNames {
