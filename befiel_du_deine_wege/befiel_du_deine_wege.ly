@@ -3,6 +3,17 @@
 #(set-global-staff-size 20)
 \include "deutsch.ly"
 
+% modify maj9 and 6(add9)
+% Exception music is chords with markups
+chExceptionMusic = {
+  <c e g d'>1-\markup { \super "add9" }
+}
+
+% Convert music to list and prepend to existing exceptions.
+chExceptions = #( append
+  ( sequential-music-to-chord-exceptions chExceptionMusic #t)
+  ignatzekExceptions)
+
 \layout {
   \context {
     \RemoveEmptyStaffContext
@@ -36,30 +47,48 @@ vocals = \relative a {
   \choral
 }
 
-harmonies = \chordmode {
-  d1:m6
-  b2:6 c
+harmonies = { 
+  \chordmode {
+    \partial 4 
+    r4
+    d2.:m7
+  }
+  \set additionalPitchPrefix = #"add"
+  <c e g d'>4    % add9
+  \chordmode {
+    f2.:maj7
+  }
+  <e g h c'>4
+  \chordmode {
+    g2.:9 e4:7
+    a1:m7
 
-  d1:m6
-  b2:6 c
-
-  b2 c
-  d1:m
-
-  b2 c
-  d1:m
-
-  b2 c
-  f4 c
-  b2 % Vorhalt 9-8
-  a1 % Vorhalt 4-3
+    g2.:7 h4:dim
+    a2.:7 f4:maj
+    g2.:7 a4
+    d2.:m7
+  }
+  \set additionalPitchPrefix = #"add"
+  <c e g f' a'>4
+  \chordmode {
+    d2.:m7
+  }
+  <e g h c'>4 
+  <f a c' >2.
+  <a c' e' f'>4 
+  \chordmode {
+    c2.:maj7 a4:7
+    d2.:m7
+  }
 }
 
 \book {
   \bookOutputSuffix "voc"
   \score {
     <<
-      \new ChordNames \harmonies
+      \new ChordNames {
+        \harmonies
+      }
       \new Voice = "melody" { \vocals }
       \new Lyrics \lyricsto "melody" {
       <<
@@ -80,12 +109,12 @@ harmonies = \chordmode {
     >>
   }
   \header {
-    title = "Lament"
-    subtitle = "Gesang"
+    title = "Befiel du deine Wege"
+    subtitle = "Leadsheet"
     tagline = ""
-    poet = "Nacht"
-    composer = "Opus Iræ"
-    copyright = "{REVISION}"
+    poet = "Paul Gerhardt"
+    composer = "Bartholomäus Gesius"
+    copyright = "Markus Herhoffer"
   }
   \paper {
     #(set-paper-size "a4")
