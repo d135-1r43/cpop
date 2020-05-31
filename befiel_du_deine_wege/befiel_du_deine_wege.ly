@@ -36,16 +36,6 @@ vocals = \relative a {
   \choral
 }
 
-lyr = \lyricmode {
-  Be -- fiehl du dei -- ne We -- ge und
-  was dein Her -- ze kränkt
-
-  Der Wol -- ken, Luft und 
-  Win -- den gib We -- ge, Lauf und Bahn, 
-  der wird auch We -- ge fin -- den, 
-  da ein Fuß ge -- hen kann.
-}
-
 harmonies = \chordmode {
   d1:m6
   b2:6 c
@@ -70,8 +60,23 @@ harmonies = \chordmode {
   \score {
     <<
       \new ChordNames \harmonies
-      \new Voice = "one" { \vocals }
-      \new Lyrics \lyricsto "one" { \lyr }
+      \new Voice = "melody" { \vocals }
+      \new Lyrics \lyricsto "melody" {
+      <<
+        {  
+          Be -- fiehl du dei -- ne We -- ge und
+          was dein Her -- ze kränkt }
+        \new Lyrics {
+          \set associatedVoice = "melody"
+          der al -- ler -- treus -- ten Pfle -- ge des 
+          der den Him -- mel lenkt.
+	    }
+      >>
+        Der Wol -- ken, Luft und 
+        Win -- den gib We -- ge, Lauf und Bahn, 
+        der wird auch We -- ge fin -- den, 
+        da ein Fuß ge -- hen kann.
+    }
     >>
   }
   \header {
