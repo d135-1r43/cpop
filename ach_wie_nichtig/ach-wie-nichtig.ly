@@ -47,18 +47,25 @@ vocLyricsOne = \lyricmode {
 
 \include "pno_ach-wie-nichtig.ly"
 \include "bass_ach-wie-nichtig.ly"
+\include "ld-git_ach-wie-nichtig.ly"
 
 \book {
   \bookOutputSuffix "band"
   \score {
     <<
-      \new Voice = "Female Vocals" { 
+      \new Voice = "Female Vocals" 
+      { 
         \vocChoral 
       }
       \new Lyrics \lyricsto "Female Vocals" { 
         \vocLyricsOne
       }
-      \new StaffGroup <<
+      \new StaffGroup
+        \with {
+          instrumentName = "Piano "
+          shortInstrumentName = "Pno "
+        }
+       <<
         \new Staff << 
           \relative c'' {
             \pnoInRh
@@ -68,22 +75,32 @@ vocLyricsOne = \lyricmode {
         \new Staff <<
           \relative c { 
             \pnoInLhC 
-            R1*2
           }\\
           \relative c { 
             \pnoInLhB 
-            R1*2
           }\\  
           \relative c {
             \clef bass 
             \key e \minor
             \pnoInLhA
-            R1*2
           }
         >>
       >>
-      \new Staff \relative { 
-        \bassIn 
+      \new Staff 
+        \with {
+            instrumentName = "Lead Guitar "
+            shortInstrumentName = "Ld Git "
+        }
+        \relative c { 
+          \ldGitIn 
+      }
+      \new Staff 
+        \with {
+            instrumentName = "Bass "
+            shortInstrumentName = "Bs "
+        }
+        \relative { 
+          \bassIn
       }
     >>
   }
