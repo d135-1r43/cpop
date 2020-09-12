@@ -8,7 +8,11 @@
   }
 }
 
-voc.choral = \relative a' {
+%%%%%%%%%%%%%%%%%%%%%%%
+% VOCALS
+%%%%%%%%%%%%%%%%%%%%%%%
+
+vocChoral = \relative a' {
   \time 4/4
   \key e \minor
   e2. fis4 g2 g 
@@ -24,7 +28,7 @@ voc.choral = \relative a' {
   fis fis e e 
 }
 
-voc.lyrics.one = \lyricmode {
+vocLyricsOne = \lyricmode {
   Ach wie flüch -- tig,
   ach wie nich -- tig
   ist der Men -- schen 
@@ -38,28 +42,90 @@ voc.lyrics.one = \lyricmode {
   Le -- ben, se -- het
 }
 
+%%%%%%%%%%%%%%%%%%%%
+% Piano
+%%%%%%%%%%%%%%%%%%%%
+
+\parallelMusic pnoRh, pnoLhC, pnoLhB, pnoLhA {
+  % 1
+  h4. e,8 h' e, c' h      |
+  r4       g'2.           |
+  r8 fis8~ fis2.          |
+  e1\sustainOn            |
+
+  % 2
+  a4. h,8 e a h, e        |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  e1\sustainOn            |
+
+  % 3
+  a4. h,8 a' h, e c'      |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  d1\sustainOn            |
+
+  % 4
+  c8 h, h' h, a' h, e h   |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  d1\sustainOn            |
+
+  % 5
+  h'4. e,8 h' e, c' h     |
+  r4       g2.            |
+  r8 fis8~ fis2.          |
+  c1\sustainOn            |
+
+  % 6
+  a4. h,8 e a h, e        |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  c1\sustainOn            |
+
+  % 7
+  a4. h,8 a' h, e c'      |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  h,1\sustainOn           |
+
+  % 8
+  c8 h, h' h, a' h, h' h, |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  h,1\sustainOn           |
+}
 
 \book {
   \bookOutputSuffix "band"
   \score {
     <<
-      \new Voice = "Female Vocals" { \voc.choral }
+      \new Voice = "Female Vocals" { \vocChoral }
       \new Lyrics \lyricsto "Female Vocals" { 
-        \voc.lyrics.one
+        \vocLyricsOne
       }
+      \new StaffGroup <<
+        \new Staff << 
+          \relative c'' \pnoRh 
+        >>
+        \new Staff <<
+          \relative c \pnoLhC \\
+          \relative c \pnoLhB \\  
+          \relative c \clef bass \pnoLhA 
+        >>
+      >>
     >>
   }
   \header {
     title = "Ach wie flüchtig, ach wie nichtig"
-    subtitle = "Arrangement für Post Rock Band"
-    tagline = "Rockband"
+    subtitle = "Post Rock, Shoegazing"
+    tagline = ""
     poet = "Text und Melodie: Michael Franck 1652"
     composer = "Arrangement: Markus Herhoffer"
     copyright = "2020"
   }
   \paper {
     #(set-paper-size "a4")
-    bottom-margin = 2\cm
     print-page-number = ##t
   }
 }
