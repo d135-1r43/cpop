@@ -1,0 +1,127 @@
+\version "2.20.0"
+
+%%%%%%%%%%%%%%%%%%%%
+% Piano
+%%%%%%%%%%%%%%%%%%%%
+
+\parallelMusic pnoInRh, pnoInLhC, pnoInLhB, pnoInLhA {
+  % 1
+  h4. e,8 h' e, c' h      |
+  r4       g'2.           |
+  r8 fis8~ fis2.          |
+  e1\sustainOn            |
+
+  % 2
+  a4. h,8 e a h, e        |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  e1\sustainOn            |
+
+  % 3
+  a4. h,8 a' h, e c'      |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  d1\sustainOn            |
+
+  % 4
+  c8 h, h' h, a' h, e h   |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  d1\sustainOn            |
+
+  % 5
+  h'4. e,8 h' e, c' h     |
+  r4       g2.            |
+  r8 fis8~ fis2.          |
+  c1\sustainOn            |
+
+  % 6
+  a4. h,8 e a h, e        |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  c1\sustainOn            |
+
+  % 7
+  a4. h,8 a' h, e c'      |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  h1\sustainOn            |
+
+  % 8
+  c8 h, h' h, a' h, h' h, |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  h1\sustainOn            |
+  
+  % 9
+  h'4. e,8 h' e, c' h     |
+  r4       g2.            |
+  r8 fis8~ fis2.          |
+  e1\sustainOn            |
+
+  % 10
+  a4. h,8 e a h, e        |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  e1\sustainOn            |
+
+  % 11
+  a4. h,8 a' h, e c'      |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  d1\sustainOn            |
+
+  % 12
+  c8 h, h' h, a' h, e h   |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  d1\sustainOn            |
+
+  % 13
+  h'4. e,8 h' e, c' h     |
+  r4       g2.            |
+  r8 fis8~ fis2.          |
+  c1\sustainOn            |
+
+  % 14
+  a4. h,8 e a h, e        |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  c1\sustainOn            |
+
+  % 15
+  a4. h,8 a' h, e c'      |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  h1\sustainOn            |
+
+  % 16
+  c8 h, h' h, a' h, h' h, |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  h1\sustainOn            |
+
+  % 9
+  h'4. e,8 h' e, c' h     |
+  r4       g2.            |
+  r8 fis8~ fis2.          |
+  e1\sustainOn            |
+
+  % 10
+  a4. h,8 e a h, e        |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  e1\sustainOn            |
+
+  % 11
+  a4. h,8 a' h, e c'      |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  d1\sustainOn            |
+
+  % 12
+  c8 h, h' h, a' h, e h   |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  d1\sustainOn            |
+}
