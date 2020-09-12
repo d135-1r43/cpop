@@ -5,6 +5,9 @@
 %%%%%%%%%%%%%%%%%%%%
 
 \parallelMusic pnoInRh, pnoInLhC, pnoInLhB, pnoInLhA {
+  \time 4/4
+  \key e \minor
+  
   % 1
   h4. e,8 h' e, c' h      |
   r4       g'2.           |
@@ -101,27 +104,51 @@
   r8 fis8~ fis2.          |
   h1\sustainOn            |
 
-  % 9
+  % 17
   h'4. e,8 h' e, c' h     |
   r4       g2.            |
   r8 fis8~ fis2.          |
   e1\sustainOn            |
 
-  % 10
+  % 18
   a4. h,8 e a h, e        |
   r4        g2.           |
   r8 fis8~ fis2.          |
   e1\sustainOn            |
 
-  % 11
+  % 19
   a4. h,8 a' h, e c'      |
   r4        g2.           |
   r8 fis8~ fis2.          |
   d1\sustainOn            |
 
-  % 12
+  % 20
   c8 h, h' h, a' h, e h   |
   r4        g2.           |
   r8 fis8~ fis2.          |
   d1\sustainOn            |
+
+  % 21
+  h'4. e,8 h' e, c' h     |
+  r4       g2.            |
+  r8 fis8~ fis2.          |
+  e1\sustainOn            |
+
+  % 22
+  a4. h,8 a'2              |
+  r4       g2.            |
+  r8 fis8~ fis2.          |
+  e1\sustainOn            |
+
+  % 23
+  a4. h,8 a' h, e c'      |
+  r4        g2.           |
+  r8 fis8~ fis2.          |
+  d1\sustainOn            |
+  
+  % 24
+  h1                      |
+  r1                      |
+  h1                      |
+  h1\sustainOn            |
 }
