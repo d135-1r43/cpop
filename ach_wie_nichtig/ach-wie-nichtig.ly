@@ -68,11 +68,16 @@
             \relative c' { 
               \padRhIn 
               \padRhCho
+              R1*19
+              \padRhSolo
             }
           >>
           \new Staff <<
             \relative c' { 
               \padLhIn 
+              R1*21
+              R1*19
+              \padLhSolo
             }
           >>
         >>
@@ -108,6 +113,8 @@
           \bassIn
           \bassChoOne
           \bassChoTwo
+          R1*3
+          \bassSolo
       }
       \new DrumStaff
         \with {

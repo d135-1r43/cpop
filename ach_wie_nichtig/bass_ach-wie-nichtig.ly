@@ -68,3 +68,20 @@ bassChoTwo = \relative c {
   d
   e( e)
 }
+
+bassSolo = \relative c {
+  R1*8
+
+  h1 a g fis
+
+  e2. e4 
+  e2. e4 
+  h'2. h4
+  e,1
+
+  c1(
+  c2.) c4
+  d2. d4
+  e1(
+  e)
+}

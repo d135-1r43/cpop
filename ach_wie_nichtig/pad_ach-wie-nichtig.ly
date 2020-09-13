@@ -67,3 +67,47 @@ padRhCho = \relative c' {
   <e h'>(
   <e h'>)
 }
+
+padRhSolo = \relative c' {
+  \clef G
+  <h' e,>1(
+  <h e,> <h e,> <h e,> <h e,> <h e,> <h e,> <h e,> <h e,>  
+  )
+
+  % 76
+  <a c e>(
+  <a c e>)
+  <a d fis>
+  <a h e>
+  
+  % 80
+  <h d g>
+  <c e a>
+  <d g h>
+  <d fis a>
+  <h e g>(
+  <h e g>)
+
+  % 86
+  <h d fis>
+  <h e g>
+  <c e g>(
+  <c e g>)
+  <d fis a>
+  <e g h>
+}
+
+padLhSolo = \relative c {
+  \clef bass
+  e1^\markup{Slow Mod Swell with LP Filter}(
+  e\< e e e e e e e\!
+  )
+
+  % 76
+  a1( 
+  a1)
+  fis
+  e
+
+  R1*12
+}
