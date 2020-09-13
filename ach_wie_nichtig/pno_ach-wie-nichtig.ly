@@ -209,8 +209,33 @@
   d1\sustainOn            | 
   
   % 34
-  r4 h,8 e( e) h e h       |
+  r4 h,8 e( e) h e h      |
   s1                      |
   r8 fis8~ fis2.          |
   e1\sustainOn            | 
+
+  % Abgesang
+  % 35
+  r4 g'8 h( h) r8 g h           |
+  s1                            |
+  \clef G r8 d'8( d4) r8 d8( d4)|
+  h'2\sustainOn h2              | 
+
+  % 36
+  r4 a8 c( c) r8 a c          |
+  s1                          |
+  r8 e8( e4) r8 e8( e4)       |
+  a2\sustainOn a2             | 
+
+  % 36
+  r4 g8 h( h) r8 g h          |
+  s1                          |
+  r8 d8( d4) r8 d8            |
+  g2\sustainOn g2             | 
+  
+  % 37
+  r4 fis8 a( a) r8 fis a      |
+  s1                          |
+  r8 d8( d4) r8 d8( d4) |
+  fis2\sustainOn fis2           | 
 }
