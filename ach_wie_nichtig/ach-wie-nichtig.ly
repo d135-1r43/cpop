@@ -79,6 +79,7 @@
         }
         \relative c { 
           \ldGitIn 
+          \ldGitCho
       }
       \new Staff 
         \with {

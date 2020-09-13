@@ -26,3 +26,23 @@ ldGitIn = \relative c'{
 
   R1*2
 }
+
+ldGitCho = \relative c'{
+  R1*8
+
+  h'1:8\mf\<
+  a:8
+  g:8
+  fis:8\!\f
+
+  e:8(
+  e:8)
+  d:8
+  e:8
+  
+  e:8
+  c:8
+  d:8\>
+  e:8
+  e:8\pp\!
+}
