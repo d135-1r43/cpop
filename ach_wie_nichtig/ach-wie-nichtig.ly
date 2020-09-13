@@ -39,22 +39,38 @@
           \relative c'' {
             \pnoInRh
             \pnoChorRh
+            R1*44
+            \relative c'' {\pnoChorRh}
+            \relative c'' {\pnoEndRh}
+            \bar "|."
           }
         >>
         \new Staff <<
           \relative c { 
             \pnoInLhC 
             \pnoChorLhC
+            R1*44
+            \pnoChorLhC
+            \pnoEndLhC
+            \bar "|."
           }\\
           \relative c { 
             \pnoInLhB 
             \pnoChorLhB 
+            R1*44
+            \pnoChorLhB 
+            \pnoEndLhB 
+            \bar "|."
           }\\  
           \relative c {
             \clef bass 
             \key e \minor
             \pnoInLhA
             \pnoChorLhA
+            R1*44
+            \pnoChorLhA
+            \pnoEndLhA
+            \bar "|."
           }
         >>
       >>
@@ -70,6 +86,8 @@
               \padRhCho
               R1*19
               \padRhSolo
+              R1*20
+              \bar "|."
             }
           >>
           \new Staff <<
@@ -78,6 +96,8 @@
               R1*21
               R1*19
               \padLhSolo
+              R1*20
+              \bar "|."
             }
           >>
         >>
@@ -92,6 +112,8 @@
           \ldGitCho
           R1*3
           \ldGitSolo
+          R1*20
+          \bar "|."
       }
       \new Staff 
         \with {
@@ -103,6 +125,8 @@
           \rhGitChoTwo
           R1*3
           \rhGitSolo
+          R1*20
+          \bar "|."
       }
       \new Staff 
         \with {
@@ -115,6 +139,8 @@
           \bassChoTwo
           R1*3
           \bassSolo
+          R1*19
+          \bar "|."
       }
       \new DrumStaff
         \with {
@@ -126,6 +152,9 @@
           \drumChorOne
           \drumChorTwo
           \drumSolo
+          R1*18
+          \drumEnd
+          \bar "|."
         }
     >>
   }

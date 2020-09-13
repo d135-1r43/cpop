@@ -29,6 +29,7 @@ vocChoral = \relative a' {
   \choral
   R1*23
   \choral
+  R1 \bar "|."
 }
 
 vocLyricsOne = \lyricmode {

@@ -122,3 +122,9 @@ drumSolo = \drummode {
     <bd cymch>8 tomfl tomfl <bd tomfl tomfh cymch>
     <bd cymch> tomfl <cymch> tomfl\fff\!
 }
+
+drumEnd = \drummode {
+    cymch1:16\mf\<(
+    cymch:16\f\!       
+    )
+}

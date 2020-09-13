@@ -286,10 +286,11 @@
   s1                          |
   r8 fis( fis4) r8 fis( fis4) |
   e2\sustainOn e2             | 
-  
-  % 47
-  r1 |
-  r1 |
-  s1 |
-  s1 |
+}
+
+\parallelMusic pnoEndRh, pnoEndLhC, pnoEndLhB, pnoEndLhA {
+  \arpeggioArrowUp <h, e fis g h e fis g>1\arpeggio       |
+  s1                          |
+  r8 fis( fis4 fis2)          |
+  e1\sustainOn                | 
 }
