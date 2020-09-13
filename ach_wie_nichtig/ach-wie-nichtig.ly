@@ -13,6 +13,7 @@
 \include "pad_ach-wie-nichtig.ly"
 \include "bass_ach-wie-nichtig.ly"
 \include "ld-git_ach-wie-nichtig.ly"
+\include "drum_ach-wie-nichtig.ly"
 
 \book {
   \bookOutputSuffix "band"
@@ -25,7 +26,7 @@
       \new Lyrics \lyricsto "Female Vocals" { 
         \vocLyricsOne
       }
-      \new StaffGroup
+      \new GrandStaff
         \with {
           instrumentName = "Piano "
           shortInstrumentName = "Pno "
@@ -51,7 +52,7 @@
           }
         >>
       >>
-      \new StaffGroup 
+      \new GrandStaff 
         \with {
             instrumentName = "Pad Synth "
             shortInstrumentName = "Synth "
@@ -84,6 +85,14 @@
         \relative { 
           \bassIn
       }
+      \new DrumStaff
+        \with {
+          instrumentName = "Drums "
+          shortInstrumentName = "Dr "
+        }
+        \drummode {
+          \drumIn
+        }
     >>
   }
   \header {
