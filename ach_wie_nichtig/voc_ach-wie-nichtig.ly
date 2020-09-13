@@ -42,3 +42,15 @@ vocLyricsOne = \lyricmode {
   so ist un -- ser 
   Le -- ben, se -- het
 }
+
+vocLyricsTwo = \lyricmode {
+  Ach wie nich -- tig,
+  ach wie flüch -- tig,
+  sind der Men -- schen 
+  Ta -- ge!
+
+  Wie ein Strom 
+  be -- ginnt zu rin -- nen
+  und mit Lau -- fen nicht hält in -- nen,
+  so fährt uns -- re Zeit von hin -- nen.
+}

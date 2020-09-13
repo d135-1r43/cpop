@@ -26,6 +26,7 @@
       }
       \new Lyrics \lyricsto "Female Vocals" { 
         \vocLyricsOne
+        \vocLyricsTwo
       }
       \new GrandStaff
         \with {
