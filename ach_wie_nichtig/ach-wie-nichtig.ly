@@ -90,7 +90,8 @@
             shortInstrumentName = "R Git "
         }
         \relative c { 
-          \rhGitCho
+          \rhGitChoOne
+          \rhGitChoTwo
       }
       \new Staff 
         \with {

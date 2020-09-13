@@ -4,12 +4,39 @@
 % Rhythm Guitar
 %%%%%%%%%%%%%%%%%%%%
 
-rhGitCho = \relative c'{
+rhGitChoOne = \relative c'{
   R1*42
   \palmMuteOn
   c4\pp\<^\markup { Always Power Chords, \musicglyph "noteheads.u2do"  = palm mute  } c c c 
   c c c c 
   \palmMuteOff
   d1\f\!
+  e1( e1)
+}
+
+rhGitChoTwo = \relative c'{
+  \repeat unfold 4 {
+    \palmMuteOff
+    e4
+    \palmMuteOn
+    r8 e r8 e e e 
+  }
+  \palmMuteOff
+  a1
+  a1
+  d,2. d4
+  e1
+
+  e8 \palmMuteOn e e e e e e e \palmMuteOff
+  a8 \palmMuteOn a a a a a a a \palmMuteOff
+  g8 \palmMuteOn g g g g g g g \palmMuteOff
+  d8 \palmMuteOn d d d d d d d \palmMuteOff
+  e8 \palmMuteOn e e e e e e e \palmMuteOff
+  e8 \palmMuteOn e e e e e e e \palmMuteOff
+  h'8 \palmMuteOn h h h h h h h \palmMuteOff
+  e8 \palmMuteOn e e e e e e e \palmMuteOff
+  c1( 
+  c2) c2
+  d1
   e1( e1)
 }
