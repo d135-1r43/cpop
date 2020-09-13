@@ -111,6 +111,7 @@
         \drummode {
           \drumIn
           \drumChorOne
+          \drumChorTwo
         }
     >>
   }
