@@ -28,6 +28,7 @@ vocChoral = \relative a' {
   R1
   \choral
   R1*23
+  \mark "Verse 3"
   \choral
   R1 \bar "|."
 }

@@ -11,7 +11,7 @@ ldGitIn = \relative c'{
   R1*14
 
   
-  h'1:8\ppp\<(
+  h'1:8^\markup{with Delay and Reverb}\ppp\<(
   h1:8)
   
   h1:8\!\mf 

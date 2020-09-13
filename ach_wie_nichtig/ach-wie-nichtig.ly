@@ -37,7 +37,10 @@
        <<
         \new Staff << 
           \relative c'' {
-            \pnoInRh
+            \mark "In"
+            \pnoInRh 
+            \bar "||"
+            \mark "Verse 1"
             \pnoChorRh
             R1*44
             \relative c'' {\pnoChorRh}
@@ -48,6 +51,7 @@
         \new Staff <<
           \relative c { 
             \pnoInLhC 
+            \bar "||"
             \pnoChorLhC
             R1*44
             \pnoChorLhC
@@ -56,7 +60,8 @@
           }\\
           \relative c { 
             \pnoInLhB 
-            \pnoChorLhB 
+            \bar "||"
+            \pnoChorLhB
             R1*44
             \pnoChorLhB 
             \pnoEndLhB 
@@ -66,6 +71,7 @@
             \clef bass 
             \key e \minor
             \pnoInLhA
+            \bar "||"
             \pnoChorLhA
             R1*44
             \pnoChorLhA
@@ -83,7 +89,9 @@
           \new Staff <<
             \relative c' { 
               \padRhIn 
+              \bar "||"
               \padRhCho
+              \bar "||"
               R1*19
               \padRhSolo
               R1*7
@@ -94,6 +102,7 @@
           \new Staff <<
             \relative c' { 
               \padLhIn 
+              \bar "||"
               R1*21
               R1*19
               \padLhSolo
@@ -109,10 +118,13 @@
         }
         \relative c { 
           \ldGitIn 
+          \bar "||"
           R1*8
           \ldGitCho
+          \bar "||"
           R1*8
           \ldGitCho
+          \bar "||"
           R1*3
           \ldGitSolo
           R1*7
@@ -126,7 +138,9 @@
         }
         \relative c { 
           \rhGitChoOne
+          \bar "||"
           \rhGitChoTwo
+          \bar "||"
           R1*3
           \rhGitSolo
           R1*20
@@ -139,8 +153,11 @@
         }
         \relative { 
           \bassIn
+          \bar "||"
           \bassChoOne
+          \bar "||"
           \bassChoTwo
+          \bar "||"
           R1*3
           \bassSolo
           R1*19
@@ -154,7 +171,9 @@
         \drummode {
           \drumIn
           \drumChorOne
+          \mark "Verse 2"
           \drumChorTwo
+          \mark "Guitar Solo"
           \drumSolo
           R1*18
           \drumEnd
@@ -164,7 +183,7 @@
   }
   \header {
     title = "Ach wie flüchtig, ach wie nichtig"
-    subtitle = "Post Rock, Blackgaze"
+    subtitle = "Blackgaze / Post Rock"
     tagline = ""
     poet = "Text und Melodie: Michael Franck 1652"
     composer = "Arrangement: Markus Herhoffer"

@@ -14,10 +14,13 @@ drumIn = \drummode {
     <bd hho>4 r hho r
 
     % 9
-    \repeat unfold 4 {
+    \repeat unfold 8 {
         <bd sn tomfh>4 tomfh <sn tomfh>8 sn tomfh <bd sn>
         <bd tomfh>8 sn tomfh4 <sn tomfh> tomfh8 <tomfh sn>
     }
+
+    <bd sn tomfh>4 tomfh <sn tomfh>8 sn tomfh <bd sn>
+    hho4 hho hho hho
 }
 
 drumChorOne = \drummode {

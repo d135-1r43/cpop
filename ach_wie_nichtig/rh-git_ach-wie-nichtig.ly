@@ -42,7 +42,7 @@ rhGitChoTwo = \relative c'{
 }
 
 rhGitSolo = \relative c' {
-  h2.^\markup { No Power Chords } e4
+  h2.^\markup {No Power Chords, with Delay and Reverb} e4
   e2 h 
   e h
   g' h,

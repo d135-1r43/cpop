@@ -148,21 +148,21 @@
   
   % 24
   h1                      |
-  r1                      |
-  h1                      |
+  s1                      |
+  s1                      |
   h1\sustainOn            |
   
   % 25
   r1                      |
-  s1                      |
-  s1                      |
-  s1                      |
+  r1                      |
+  r1                      |
+  r1                      |
   
   % 26
   r1                      |
-  s1                      |
-  s1                      |
-  s1                      |
+  r1                      |
+  r1                      |
+  r1                      |
 }
 
 \parallelMusic pnoChorRh, pnoChorLhC, pnoChorLhB, pnoChorLhA {
