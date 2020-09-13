@@ -28,8 +28,6 @@ ldGitIn = \relative c'{
 }
 
 ldGitCho = \relative c'{
-  R1*8
-
   h'1:8\mf\<
   a:8
   g:8

@@ -111,3 +111,21 @@ padLhSolo = \relative c {
 
   R1*12
 }
+
+padOut = \relative c' {
+  h'1
+  a
+  g
+  fis
+
+  e(
+  e)
+  d
+  e
+  
+  e
+  c
+  d\>
+  e(
+  e)\pp\!
+}

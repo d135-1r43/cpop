@@ -86,7 +86,8 @@
               \padRhCho
               R1*19
               \padRhSolo
-              R1*20
+              R1*7
+              \padOut
               \bar "|."
             }
           >>
@@ -108,11 +109,14 @@
         }
         \relative c { 
           \ldGitIn 
+          R1*8
           \ldGitCho
+          R1*8
           \ldGitCho
           R1*3
           \ldGitSolo
-          R1*20
+          R1*7
+          \ldGitCho
           \bar "|."
       }
       \new Staff 
@@ -160,7 +164,7 @@
   }
   \header {
     title = "Ach wie flüchtig, ach wie nichtig"
-    subtitle = "Post Rock, Shoegazing"
+    subtitle = "Post Rock, Blackgaze"
     tagline = ""
     poet = "Text und Melodie: Michael Franck 1652"
     composer = "Arrangement: Markus Herhoffer"
@@ -169,5 +173,6 @@
   \paper {
     #(set-paper-size "a4")
     print-page-number = ##t
+    left-margin = 20
   }
 }
