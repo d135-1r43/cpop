@@ -27,6 +27,8 @@ vocChoral = \relative a' {
   \choral
   R1
   \choral
+  R1*23
+  \choral
 }
 
 vocLyricsOne = \lyricmode {
@@ -53,4 +55,17 @@ vocLyricsTwo = \lyricmode {
   be -- ginnt zu rin -- nen
   und mit Lau -- fen nicht hält in -- nen,
   so fährt uns -- re Zeit von hin -- nen.
+}
+
+vocLyricsThree = \lyricmode {
+  Ach wie flüch -- tig,
+  ach wie nich -- tig
+  ist der Men -- schen Freu -- de!
+
+  Wie sich wech -- selnd
+  Stund und Zei -- ten,
+  Licht und Dun -- kel, 
+  Fried und Strei -- ten,
+  so sind uns -- re 
+  Fröh -- lich -- kei -- ten
 }

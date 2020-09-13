@@ -27,6 +27,7 @@
       \new Lyrics \lyricsto "Female Vocals" { 
         \vocLyricsOne
         \vocLyricsTwo
+        \vocLyricsThree
       }
       \new GrandStaff
         \with {
@@ -117,6 +118,7 @@
           \drumIn
           \drumChorOne
           \drumChorTwo
+          \drumSolo
         }
     >>
   }

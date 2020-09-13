@@ -77,6 +77,10 @@ drumPatternEights = \drummode {
     <bd tomfl> tomfl <tomfl tomfh> tomfl 
 }
 
+drumPatternBuildup = \drummode {
+    \repeat unfold 4 { <bd tomfl>8 tomfl }
+}
+
 drumChorTwo = \drummode {
     <bd tomfh>16 sn sn sn 
     sn sn <sn bd> sn
@@ -104,5 +108,17 @@ drumChorTwo = \drummode {
     <bd tomfl tomfh>8 tomfl tomfl <bd tomfl tomfh>
     <bd tomfl> tomfl <tomfl tomfh> tomfl 
 
+    \repeat unfold 7 \drumPatternEights
+}
+
+drumSolo = \drummode {
     \repeat unfold 8 \drumPatternEights
+    \repeat unfold 8 \drumPatternBuildup
+    \repeat unfold 2 \drumPatternEights
+
+    <bd cymch>8\mf\< tomfl tomfl <bd cymch>
+    <bd cymch> tomfl <tomfh cymch> tomfl 
+
+    <bd cymch>8 tomfl tomfl <bd tomfl tomfh cymch>
+    <bd cymch> tomfl <cymch> tomfl\fff\!
 }
