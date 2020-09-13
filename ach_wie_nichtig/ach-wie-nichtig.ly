@@ -35,20 +35,23 @@
         \new Staff << 
           \relative c'' {
             \pnoInRh
-            R1*2
+            \pnoChorRh
           }
         >>
         \new Staff <<
           \relative c { 
             \pnoInLhC 
+            \pnoChorLhC
           }\\
           \relative c { 
             \pnoInLhB 
+            \pnoChorLhB 
           }\\  
           \relative c {
             \clef bass 
             \key e \minor
             \pnoInLhA
+            \pnoChorLhA
           }
         >>
       >>

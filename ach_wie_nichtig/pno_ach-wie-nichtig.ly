@@ -154,13 +154,63 @@
   
   % 25
   r1                      |
-  r1                      |
-  r1                      |
-  r1                      |
+  s1                      |
+  s1                      |
+  s1                      |
   
   % 26
   r1                      |
-  r1                      |
-  r1                      |
-  r1                      |
+  s1                      |
+  s1                      |
+  s1                      |
+}
+
+\parallelMusic pnoChorRh, pnoChorLhC, pnoChorLhB, pnoChorLhA {
+  % 27
+  r4 h,8 e( e) h e fis(   |
+  s1                      |
+  r8 fis8~ fis2.          |
+  e1\sustainOn            | 
+  
+  % 28
+  fis4) h,8 g'( g) h, e g |
+  s1                      |
+  r8 fis8~ fis2.          |
+  e1\sustainOn            | 
+  
+  % 29
+  r4 c,8 a'( a) c, e a    |
+  s1                      |
+  r8 fis8~ fis2.          |
+  e1\sustainOn            | 
+
+  % 30
+  r4 h,8 h'( h) h, e h'   |
+  s1                      |
+  r8 fis8~ fis2.          |
+  e1\sustainOn            | 
+  
+  % 31
+  r4 e,8 a c e, a c(      |
+  s1                      |
+  r8 c8~ c2.              |
+  a,1\sustainOn           | 
+  
+  % 32
+  c4) e,8 a c e, a c      |
+  s1                      |
+  r8 c8~ c2.              |
+  a1\sustainOn            | 
+  
+  % 33
+  r4 a,8 d fis a, d fis   |
+  s1                      |
+  r8 fis8~ fis2.          |
+  d1\sustainOn            | 
+  
+  % 34
+  r4 h,8 e( e) h e h       |
+  s1                      |
+  r8 fis8~ fis2.          |
+  e1\sustainOn            | 
 }
