@@ -227,15 +227,63 @@
   r8 e8( e4) r8 e8( e4)       |
   a2\sustainOn a2             | 
 
-  % 36
+  % 37
   r4 g8 h( h) r8 g h          |
   s1                          |
-  r8 d8( d4) r8 d8            |
+  r8 d8( d4) r8 d8( d4)       |
   g2\sustainOn g2             | 
   
-  % 37
+  % 38
   r4 fis8 a( a) r8 fis a      |
   s1                          |
-  r8 d8( d4) r8 d8( d4) |
-  fis2\sustainOn fis2           | 
+  r8 d8( d4) r8 d8( d4)       |
+  fis2\sustainOn fis2         | 
+  
+  % 39
+  r4 h,8 a'( a) r8 h, a'                  |
+  s1                                      |
+  \clef bass r8 fis,( fis4) r8 fis( fis4) |
+  e2\sustainOn e2                         | 
+  
+  % 40
+  r4 h,8 h'( h) r8 h, e       |
+  s1                          |
+  r8 fis( fis4) r8 fis( fis4) |
+  e2\sustainOn e2             | 
+  
+  % 41
+  r4 h8 a'( a) r8 h, a'       |
+  s1                          |
+  r8 fis( fis4) r8 fis( fis4) |
+  h2\sustainOn h2             | 
+
+  % 42
+  r4 h,8 e( e) r8 h e         |
+  s1                          |
+  r8 fis( fis4) r8 fis( fis4) |
+  e2\sustainOn e2             | 
+
+  % 43
+  r4 h8 e( e) r8 h e          |
+  s1                          |
+  r8 fis( fis4) r8 fis( fis4) |
+  c2\sustainOn c2             | 
+
+  % 44
+  r4 h8 e( e) r8 h e          |
+  s1                          |
+  r8 fis( fis4) r8 fis( fis4) |
+  c2\sustainOn c2             | 
+
+  % 45
+  r4 a,8 fis'( fis) r8 a, fis'|
+  s1                          |
+  r8 fis( fis4) r8 fis( fis4) |
+  d2\sustainOn d2             | 
+
+  % 45
+  r4 h,8 e( e) r8 h e          |
+  s1                          |
+  r8 fis( fis4) r8 fis( fis4) |
+  e2\sustainOn e2             | 
 }
