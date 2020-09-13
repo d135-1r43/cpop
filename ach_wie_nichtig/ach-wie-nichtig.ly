@@ -13,6 +13,7 @@
 \include "pad_ach-wie-nichtig.ly"
 \include "bass_ach-wie-nichtig.ly"
 \include "ld-git_ach-wie-nichtig.ly"
+\include "rh-git_ach-wie-nichtig.ly"
 \include "drum_ach-wie-nichtig.ly"
 
 \book {
@@ -64,6 +65,7 @@
           \new Staff <<
             \relative c' { 
               \padRhIn 
+              \padRhCho
             }
           >>
           \new Staff <<
@@ -83,11 +85,21 @@
       }
       \new Staff 
         \with {
+            instrumentName = "Rhythm Guitar "
+            shortInstrumentName = "R Git "
+        }
+        \relative c { 
+          \rhGitCho
+      }
+      \new Staff 
+        \with {
             instrumentName = "Bass "
             shortInstrumentName = "Bs "
         }
         \relative { 
           \bassIn
+          \bassChoOne
+          \bassChoTwo
       }
       \new DrumStaff
         \with {
@@ -96,6 +108,7 @@
         }
         \drummode {
           \drumIn
+          \drumChorOne
         }
     >>
   }

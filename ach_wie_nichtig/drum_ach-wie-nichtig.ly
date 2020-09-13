@@ -60,3 +60,14 @@ drumIn = \drummode {
     hho4 r hho r 
     hho4 r hho r 
 }
+
+drumChorOne = \drummode {
+    % till 46
+    \repeat unfold 80 {
+        <bd tomfl>8 tomfl
+    }
+
+    bd16 sn <bd sn> sn <bd sn>
+    bd sn <bd sn> sn4:16 
+    tomml16 tomml tomfh tomfh
+}

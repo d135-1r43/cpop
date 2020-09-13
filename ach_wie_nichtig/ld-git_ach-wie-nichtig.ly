@@ -43,6 +43,6 @@ ldGitCho = \relative c'{
   e:8
   c:8
   d:8\>
-  e:8
-  e:8\pp\!
+  e:8(
+  e:8)\pp\!
 }

@@ -45,3 +45,25 @@ padLhIn = \relative c' {
 
   R1*6
 }
+
+padRhCho = \relative c' {
+  \clef bass
+  <e, h'>1( <e h'> <e h'> <e h'>)
+  <e c'>1( <e c'>)
+  <d a'>
+  <e h'>
+  <e h'>
+  <e c'>
+  <d h'>
+  <d a'>
+
+  <e a>
+  <e a>
+  <d a'>
+  <e h'>
+  <c g'>
+  <c g'>
+  <d a'>
+  <e h'>(
+  <e h'>)
+}

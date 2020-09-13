@@ -281,9 +281,15 @@
   r8 fis( fis4) r8 fis( fis4) |
   d2\sustainOn d2             | 
 
-  % 45
-  r4 h,8 e( e) r8 h e          |
+  % 46
+  r4 h,8 e( e) r8 h e         |
   s1                          |
   r8 fis( fis4) r8 fis( fis4) |
   e2\sustainOn e2             | 
+  
+  % 47
+  r1 |
+  r1 |
+  s1 |
+  s1 |
 }

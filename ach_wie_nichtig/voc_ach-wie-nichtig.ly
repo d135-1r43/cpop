@@ -4,12 +4,8 @@
 % VOCALS
 %%%%%%%%%%%%%%%%%%%%%%%
 
-vocChoral = \relative a' {
-  \time 4/4
-  \key e \minor
-
-  R1*26
-
+choral = \relative a' 
+{
   e2. fis4 g2 g 
   a a h h 
   c h a g 
@@ -21,6 +17,16 @@ vocChoral = \relative a' {
   a a g g 
   g2. a4 h2 g 
   fis fis e e 
+}
+
+vocChoral = \relative a' {
+  \time 4/4
+  \key e \minor
+
+  R1*26
+  \choral
+  R1
+  \choral
 }
 
 vocLyricsOne = \lyricmode {
