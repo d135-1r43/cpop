@@ -4,7 +4,7 @@
 % Lead Guitar
 %%%%%%%%%%%%%%%%%%%%
 
-\ldGitIn = \relative c'{
+ldGitIn = \relative c'{
   \time 4/4
   \key e \minor
   
@@ -14,7 +14,7 @@
   h'1:8\ppp\<(
   h1:8)
   
-  h1:88\!\mf 
+  h1:8\!\mf 
   c1:8
   h1:8
   a1:8

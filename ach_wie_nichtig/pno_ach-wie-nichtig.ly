@@ -9,7 +9,7 @@
   \key e \minor
   
   % 1
-  h4. e,8 h' e, c' h      |
+  h4.\mf e,8 h' e, c' h      |
   r4       g'2.           |
   r8 fis8~ fis2.          |
   e1\sustainOn            |
@@ -151,4 +151,16 @@
   r1                      |
   h1                      |
   h1\sustainOn            |
+  
+  % 25
+  r1                      |
+  r1                      |
+  r1                      |
+  r1                      |
+  
+  % 26
+  r1                      |
+  r1                      |
+  r1                      |
+  r1                      |
 }

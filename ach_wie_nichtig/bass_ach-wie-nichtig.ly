@@ -4,7 +4,7 @@
 % Bass
 %%%%%%%%%%%%%%%%%%%%
 
-\bassIn = \relative c {
+bassIn = \relative c {
   \time 4/4
   \key e \minor
   \clef bass
@@ -30,4 +30,6 @@
   e2. e4
   h2. h4
   h1
+
+  R1*2
 }

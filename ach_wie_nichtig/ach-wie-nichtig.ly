@@ -46,6 +46,7 @@ vocLyricsOne = \lyricmode {
 }
 
 \include "pno_ach-wie-nichtig.ly"
+\include "pad_ach-wie-nichtig.ly"
 \include "bass_ach-wie-nichtig.ly"
 \include "ld-git_ach-wie-nichtig.ly"
 
@@ -86,6 +87,23 @@ vocLyricsOne = \lyricmode {
           }
         >>
       >>
+      \new StaffGroup 
+        \with {
+            instrumentName = "Pad Synth "
+            shortInstrumentName = "Synth "
+        }
+        <<
+          \new Staff <<
+            \relative c' { 
+              \padRhIn 
+            }
+          >>
+          \new Staff <<
+            \relative c' { 
+              \padLhIn 
+            }
+          >>
+        >>
       \new Staff 
         \with {
             instrumentName = "Lead Guitar "
