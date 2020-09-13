@@ -40,3 +40,31 @@ rhGitChoTwo = \relative c'{
   d1
   e1( e1)
 }
+
+rhGitSolo = \relative c' {
+  h2.^\markup { No Power Chords } e4
+  e2 h 
+  e h
+  g' h,
+  
+  a' a 
+  e e 
+  d a
+  h1
+
+  % 80
+  g'2 h,
+  a' c,
+  g' h,
+  d a 
+
+  a' e
+  h e
+  a2. h4
+  g1 
+
+  g1
+  e2. g4
+  fis2. g4
+  e1
+}

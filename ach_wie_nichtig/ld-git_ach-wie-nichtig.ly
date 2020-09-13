@@ -46,3 +46,30 @@ ldGitCho = \relative c'{
   e:8(
   e:8)\pp\!
 }
+
+ldGitSolo = \relative c' {
+  e2. fis4
+  g2 e
+  a e
+  h' e,
+  
+  c' h
+  a g 
+  fis d 
+  e1
+
+  h'2 e,
+  c' e,
+  h' d,
+  fis d 
+  
+  fis h,
+  g' h,
+  fis'2. fis 4
+  e1
+
+  e 
+  c2. e4
+  d2. d4 
+  h1
+}

@@ -83,6 +83,9 @@
         \relative c { 
           \ldGitIn 
           \ldGitCho
+          \ldGitCho
+          R1*3
+          \ldGitSolo
       }
       \new Staff 
         \with {
@@ -92,6 +95,8 @@
         \relative c { 
           \rhGitChoOne
           \rhGitChoTwo
+          R1*3
+          \rhGitSolo
       }
       \new Staff 
         \with {
