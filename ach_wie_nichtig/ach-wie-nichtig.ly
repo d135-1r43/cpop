@@ -22,6 +22,7 @@
     <<
       \new Voice = "Female Vocals" 
       { 
+        \tempo  "Heavy and Gloomy" 2 = 65
         \vocChoral 
       }
       \new Lyrics \lyricsto "Female Vocals" { 
@@ -37,7 +38,6 @@
        <<
         \new Staff << 
           \relative c'' {
-            \mark "In"
             \pnoInRh 
             \bar "||"
             \mark "Verse 1"
