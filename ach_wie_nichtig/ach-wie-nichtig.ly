@@ -4,7 +4,7 @@
 
 \layout {
   \context {
-    \RemoveEmptyStaffContext
+    \RemoveEmptyStaves
   }
 }
 
@@ -180,6 +180,8 @@
           \bar "|."
         }
     >>
+    \layout {}
+    \midi {}
   }
   \header {
     title = "Ach wie flüchtig, ach wie nichtig"
